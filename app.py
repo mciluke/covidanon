@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.config.update(dict(
     RECAPTCHA_ENABLED = True,
     RECAPTCHA_SITE_KEY = 'redacted',
-    RECAPTCHA_SECRET_KEY = "6LeCS8YZAAAAAJ33nyml2GeX3siJruHrSp9cpqCS",
+    RECAPTCHA_SECRET_KEY = "redacted",
 ))
 recaptcha = ReCaptcha()
 recaptcha.init_app(app)
